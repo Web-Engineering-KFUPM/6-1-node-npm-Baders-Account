@@ -174,3 +174,6 @@ After completing all TODOs, test your calculator:
   Expected output: Invalid operation. Use: add, subtract, multiply, or divide
 
 */
+import { add, subtract } from "./utils/operations.js";
+  import { parseNumbers, isValidOperation } from "./utils/parser.js";
+  import _ from "lodash";
